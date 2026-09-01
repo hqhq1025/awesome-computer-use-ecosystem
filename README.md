@@ -35,6 +35,7 @@ observe and act
 - [Evaluation and Training](#evaluation-and-training)
 - [Compatibility and Platforms](#compatibility-and-platforms)
 - [Reverse Engineering and Clean-Room Research](#reverse-engineering-and-clean-room-research)
+- [Publication Queue](#publication-queue)
 - [Scope and Inclusion Criteria](#scope-and-inclusion-criteria)
 - [Contributing](#contributing)
 
@@ -68,6 +69,10 @@ observe and act
   - `Chrome` `MCP` `CLI` `SDK` `MIT`
 ## Execution Layers
 
+- [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver)
+  - Cross-platform desktop and browser automation runtime from CUA, available
+    through MCP, CLI, native SDK bindings, and embeddable interfaces.
+  - `macOS` `Linux` `Windows` `Browser` `MCP` `Rust` `MIT`
 - [Open Computer Use](https://github.com/iFurySt/open-codex-computer-use)
   - Cross-platform Computer Use service exposed through MCP with native
     accessibility, screenshot, and input backends.
@@ -80,6 +85,18 @@ observe and act
   - App-aware background Computer Use for Claude Code, Codex, and other MCP
     agents.
   - `macOS` `MCP` `Swift` `MIT`
+- [Qwen Open Computer Use](https://github.com/QwenLM/open-computer-use)
+  - Qwen Code's cross-platform adaptation of Open Computer Use, distributed as
+    an MCP service and command-line tool for Qwen Code and other agents.
+  - `macOS` `Linux` `Windows` `Qwen Code` `MCP` `MIT`
+- [Qwen CUA Driver](https://github.com/QwenLM/qwen-code/tree/main/packages/cua-driver)
+  - Qwen Code's vendored distribution of CUA Driver, with Qwen-owned product
+    identity, patches, releases, and Python and TypeScript SDK integration.
+  - `macOS` `Linux` `Windows` `Browser` `MCP` `Rust` `Apache-2.0`
+- [Maka CU](https://github.com/maka-agent/maka-cu)
+  - Native macOS execution layer for Maka Computer Use, derived from Open
+    Computer Use with Maka-specific targeting and runtime integration.
+  - `macOS` `Maka` `Accessibility` `Swift` `MIT`
 
 ## Remote Access and Isolation
 
@@ -109,6 +126,10 @@ observe and act
   - Makes the locally installed Codex Computer Use broker available to other
     MCP-compatible agents.
   - `macOS` `MCP` `Wrapper` `MIT`
+- [Kimi Computer Use](https://github.com/songkeys/kimi-computer-use)
+  - Unofficial bridge that lets Kimi Code use an existing OpenAI Computer Use
+    installation on macOS; it is separate from the proprietary KimiCU runtime.
+  - `macOS` `Kimi Code` `MCP` `Bridge` `MIT`
 
 ## Reverse Engineering and Clean-Room Research
 
@@ -116,6 +137,23 @@ observe and act
   - Experiment-backed analysis of the macOS Codex Computer Use architecture,
     protocol, accessibility state, input path, policy gates, and lifecycle.
   - `macOS` `Research` `Protocol` `MIT`
+
+## Publication Queue
+
+These maintainer projects have working local research artifacts but do not yet
+have public repositories. They are listed here to make the ecosystem map
+complete without presenting private work as publicly reproducible.
+
+- Open ZCode Computer Use
+  - Clean-room macOS implementation of the observed ZCode CUA 0.5.12 MCP
+    contract, including all 30 tool schemas, state and frame capabilities,
+    native accessibility actions, screenshots, input, and safety controls.
+  - `macOS` `ZCode` `Clean room` `MCP` `JavaScript` `Swift` `Publication pending`
+- KimiCU Reverse Engineering
+  - Static and controlled dynamic study of the proprietary KimiCU 0.5.4
+    runtime, covering packaging, native accessibility snapshots, background
+    input, XPC boundaries, WebView behavior, and stale-element correctness.
+  - `macOS` `Kimi Code` `Research` `Proprietary target` `Publication pending`
 
 ## Scope and Inclusion Criteria
 
