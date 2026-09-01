@@ -1,7 +1,8 @@
 ## Project
 
 - Repository:
-- Category:
+- Ecosystem:
+- Capabilities:
 - Type: implementation / compatibility / wrapper / research
 - Platforms:
 - License:

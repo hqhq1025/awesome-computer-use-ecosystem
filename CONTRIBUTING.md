@@ -4,7 +4,10 @@ Thanks for helping improve Awesome Computer Use Ecosystem.
 
 ## Add a Project
 
-Open a pull request that adds one entry to the most specific existing section.
+Open a pull request that adds one entry to its product ecosystem. Use the
+capability index to link the project from each relevant functional category
+without duplicating its full description.
+
 Use this format:
 
 ```markdown
@@ -18,6 +21,7 @@ Keep the description under 30 words. Do not use promotional claims such as
 
 In the pull request description, include:
 
+- the product ecosystem or independent-project group it belongs to;
 - the application, workflow, or Computer Use lifecycle capability it enables;
 - why the project is in scope;
 - whether it is an implementation, compatibility layer, wrapper, or research
