@@ -35,7 +35,6 @@ observe and act
 - [Evaluation and Training](#evaluation-and-training)
 - [Compatibility and Platforms](#compatibility-and-platforms)
 - [Reverse Engineering and Clean-Room Research](#reverse-engineering-and-clean-room-research)
-- [Publication Queue](#publication-queue)
 - [Scope and Inclusion Criteria](#scope-and-inclusion-criteria)
 - [Contributing](#contributing)
 
@@ -97,6 +96,10 @@ observe and act
   - Native macOS execution layer for Maka Computer Use, derived from Open
     Computer Use with Maka-specific targeting and runtime integration.
   - `macOS` `Maka` `Accessibility` `Swift` `MIT`
+- [Open ZCode Computer Use](https://github.com/hqhq1025/open-zcode-computer-use)
+  - Clean-room macOS implementation of the ZCode CUA 0.5.12 MCP contract, with
+    all 30 tool schemas and independently implemented execution.
+  - `macOS` `ZCode` `Clean room` `MCP` `JavaScript` `Swift` `MIT`
 
 ## Remote Access and Isolation
 
@@ -137,23 +140,10 @@ observe and act
   - Experiment-backed analysis of the macOS Codex Computer Use architecture,
     protocol, accessibility state, input path, policy gates, and lifecycle.
   - `macOS` `Research` `Protocol` `MIT`
-
-## Publication Queue
-
-These maintainer projects have working local research artifacts but do not yet
-have public repositories. They are listed here to make the ecosystem map
-complete without presenting private work as publicly reproducible.
-
-- Open ZCode Computer Use
-  - Clean-room macOS implementation of the observed ZCode CUA 0.5.12 MCP
-    contract, including all 30 tool schemas, state and frame capabilities,
-    native accessibility actions, screenshots, input, and safety controls.
-  - `macOS` `ZCode` `Clean room` `MCP` `JavaScript` `Swift` `Publication pending`
-- KimiCU Reverse Engineering
-  - Static and controlled dynamic study of the proprietary KimiCU 0.5.4
-    runtime, covering packaging, native accessibility snapshots, background
-    input, XPC boundaries, WebView behavior, and stale-element correctness.
-  - `macOS` `Kimi Code` `Research` `Proprietary target` `Publication pending`
+- [Kimi Computer Use Reverse Engineering Lab](https://github.com/hqhq1025/kimi-computer-use-lab)
+  - Static and controlled dynamic study of KimiCU 0.5.4, covering packaging,
+    MCP, native modules, XPC trust, WebView input, and stale-element behavior.
+  - `macOS` `Kimi Code` `Research` `Security` `MIT`
 
 ## Scope and Inclusion Criteria
 
