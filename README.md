@@ -44,8 +44,9 @@ observe and act
 
 | Capability | Projects |
 | --- | --- |
-| Desktop execution | [Open Computer Use](https://github.com/iFurySt/open-codex-computer-use), [Qwen Open Computer Use](https://github.com/QwenLM/open-computer-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Apache Maka (Incubating)](https://github.com/apache/maka), [Maka CU](https://github.com/maka-agent/maka-cu), [OpenClaw Computer Tool](https://github.com/openclaw/openclaw/blob/main/src/agents/tools/computer-tool.ts), [Peekaboo](https://github.com/openclaw/Peekaboo), [Hermes Computer Use](https://github.com/NousResearch/hermes-agent/tree/main/tools/computer_use), [Open ZCode Computer Use](https://github.com/hqhq1025/open-zcode-computer-use) |
+| Desktop execution | [Open Computer Use](https://github.com/iFurySt/open-codex-computer-use), [Qwen Open Computer Use](https://github.com/QwenLM/open-computer-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Apache Maka (Incubating)](https://github.com/apache/maka), [Maka CU](https://github.com/maka-agent/maka-cu), [OpenClaw Computer Tool](https://github.com/openclaw/openclaw/blob/main/src/agents/tools/computer-tool.ts), [Peekaboo](https://github.com/openclaw/Peekaboo), [Hermes Computer Use](https://github.com/NousResearch/hermes-agent/tree/main/tools/computer_use), [Tactile](https://github.com/yliust/Tactile), [Open ZCode Computer Use](https://github.com/hqhq1025/open-zcode-computer-use) |
 | Browser execution | [Open Browser Use](https://github.com/iFurySt/open-browser-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Qwen CUA Driver](https://github.com/QwenLM/qwen-code/tree/main/packages/cua-driver), [OpenClaw CUA Provider](https://github.com/openclaw/openclaw/tree/main/extensions/cua-computer), [Hermes Browser Automation](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/browser.md) |
+| Accessibility and semantic grounding | [Tactile](https://github.com/yliust/Tactile), [Peekaboo](https://github.com/openclaw/Peekaboo), [Hermes Computer Use](https://github.com/NousResearch/hermes-agent/tree/main/tools/computer_use) |
 | Memory and history | [Open Codex Computer History](https://github.com/hqhq1025/open-codex-computer-history), [OpenClaw Logbook](https://github.com/openclaw/openclaw/tree/main/extensions/logbook) |
 | Demonstration and replay | [Open Codex Record & Replay](https://github.com/hqhq1025/open-codex-record-and-replay), [OpenClaw CUA Provider](https://github.com/openclaw/openclaw/tree/main/extensions/cua-computer) |
 | Evaluation and training | [CUA](https://github.com/trycua/cua), [LongHorizon Harness](https://github.com/AMAP-ML/LongHorizon-Harness) |
@@ -186,6 +187,14 @@ observe and act
   - `Browser execution` `Browser Use` `CDP` `Cloud browsers` `Session isolation` `MIT`
 
 ## Independent Applications
+
+- [Tactile](https://github.com/yliust/Tactile)
+  - Accessibility-first operating layer for agents that prioritizes AX or UIA
+    semantics, falls back to OCR-grounded coordinates, and uses visual Computer
+    Use when structured interfaces are insufficient. It includes a nine-tool
+    macOS MCP facade plus macOS and Windows Skills for observation, input,
+    bounded workflows, verification, app guides, traces, and evaluation.
+  - `macOS` `Windows` `MCP` `Agent Skills` `Accessibility` `OCR` `Semantic grounding` `PolyForm Noncommercial 1.0.0`
 
 - [LongHorizon Harness](https://github.com/AMAP-ML/LongHorizon-Harness)
   - Runs long-lived agents across desktop applications and terminals with
