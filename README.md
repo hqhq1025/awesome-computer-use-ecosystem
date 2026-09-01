@@ -31,7 +31,6 @@ observe and act
 - [Memory, Demonstration, and Replay](#memory-demonstration-and-replay)
 - [Browser Use](#browser-use)
 - [Execution Layers](#execution-layers)
-- [Remote Access and Isolation](#remote-access-and-isolation)
 - [Evaluation and Training](#evaluation-and-training)
 - [Compatibility and Platforms](#compatibility-and-platforms)
 - [Reverse Engineering and Clean-Room Research](#reverse-engineering-and-clean-room-research)
@@ -45,9 +44,6 @@ observe and act
     recoverable state, progress verification, evaluation, and independent
     auditing.
   - `Desktop` `CLI` `Evaluation` `Long-running agents`
-- [Computer Use for Sway](https://github.com/blackopsrepl/computer-use-sway)
-  - Lets agents operate applications inside a Sway desktop session.
-  - `Linux` `Sway` `MIT`
 
 ## Memory, Demonstration, and Replay
 
@@ -76,14 +72,6 @@ observe and act
   - Cross-platform Computer Use service exposed through MCP with native
     accessibility, screenshot, and input backends.
   - `macOS` `Linux` `Windows` `MCP` `MIT`
-- [computer-use-mcp](https://github.com/minghinmatthewlam/computer-use-mcp)
-  - Agent-agnostic macOS control designed to operate background applications
-    without taking over the user's physical cursor or keyboard focus.
-  - `macOS` `MCP` `Swift` `MIT`
-- [Open Claudex Computer Use](https://github.com/OpenCodexLabs/open-codex-computer-use)
-  - App-aware background Computer Use for Claude Code, Codex, and other MCP
-    agents.
-  - `macOS` `MCP` `Swift` `MIT`
 - [Qwen Open Computer Use](https://github.com/QwenLM/open-computer-use)
   - Qwen Code's cross-platform adaptation of Open Computer Use, distributed as
     an MCP service and command-line tool for Qwen Code and other agents.
@@ -101,21 +89,6 @@ observe and act
     all 30 tool schemas and independently implemented execution.
   - `macOS` `ZCode` `Clean room` `MCP` `JavaScript` `Swift` `MIT`
 
-## Remote Access and Isolation
-
-- [Computer Use VM](https://github.com/ZimengXiong/computer-use-vm)
-  - Gives agents disposable macOS virtual machines for GUI development,
-    testing, and verification without touching the host desktop.
-  - `macOS` `VM` `Isolation` `Python` `MIT`
-- [OpenCodex](https://github.com/RyensX/OpenCodex)
-  - Exposes a Codex or ChatGPT desktop session through a browser for operation
-    from phones, tablets, and other computers.
-  - `Remote access` `Browser` `Codex` `AGPL-3.0`
-- [codex-relay](https://github.com/gronxb/codex-relay)
-  - Provides phone access to a Codex session while execution remains on the
-    user's computer.
-  - `Mobile` `Remote access` `Codex` `Apache-2.0`
-
 ## Evaluation and Training
 
 - [CUA](https://github.com/trycua/cua)
@@ -125,10 +98,6 @@ observe and act
 
 ## Compatibility and Platforms
 
-- [codex-computer-use-mcp](https://github.com/tmustier/codex-computer-use-mcp)
-  - Makes the locally installed Codex Computer Use broker available to other
-    MCP-compatible agents.
-  - `macOS` `MCP` `Wrapper` `MIT`
 - [Kimi Computer Use](https://github.com/songkeys/kimi-computer-use)
   - Unofficial bridge that lets Kimi Code use an existing OpenAI Computer Use
     installation on macOS; it is separate from the proprietary KimiCU runtime.
