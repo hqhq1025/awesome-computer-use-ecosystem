@@ -44,10 +44,10 @@ observe and act
 
 | Capability | Projects |
 | --- | --- |
-| Desktop execution | [Open Computer Use](https://github.com/iFurySt/open-codex-computer-use), [Qwen Open Computer Use](https://github.com/QwenLM/open-computer-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Apache Maka (Incubating)](https://github.com/apache/maka), [Maka CU](https://github.com/maka-agent/maka-cu), [OpenClaw](https://github.com/openclaw/openclaw), [Peekaboo](https://github.com/openclaw/Peekaboo), [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Open ZCode Computer Use](https://github.com/hqhq1025/open-zcode-computer-use) |
-| Browser execution | [Open Browser Use](https://github.com/iFurySt/open-browser-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Qwen CUA Driver](https://github.com/QwenLM/qwen-code/tree/main/packages/cua-driver), [OpenClaw](https://github.com/openclaw/openclaw) |
-| Memory and history | [Open Codex Computer History](https://github.com/hqhq1025/open-codex-computer-history) |
-| Demonstration and replay | [Open Codex Record & Replay](https://github.com/hqhq1025/open-codex-record-and-replay), [OpenClaw](https://github.com/openclaw/openclaw) |
+| Desktop execution | [Open Computer Use](https://github.com/iFurySt/open-codex-computer-use), [Qwen Open Computer Use](https://github.com/QwenLM/open-computer-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Apache Maka (Incubating)](https://github.com/apache/maka), [Maka CU](https://github.com/maka-agent/maka-cu), [OpenClaw Computer Tool](https://github.com/openclaw/openclaw/blob/main/src/agents/tools/computer-tool.ts), [Peekaboo](https://github.com/openclaw/Peekaboo), [Hermes Computer Use](https://github.com/NousResearch/hermes-agent/tree/main/tools/computer_use), [Open ZCode Computer Use](https://github.com/hqhq1025/open-zcode-computer-use) |
+| Browser execution | [Open Browser Use](https://github.com/iFurySt/open-browser-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Qwen CUA Driver](https://github.com/QwenLM/qwen-code/tree/main/packages/cua-driver), [OpenClaw CUA Provider](https://github.com/openclaw/openclaw/tree/main/extensions/cua-computer), [Hermes Browser Automation](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/browser.md) |
+| Memory and history | [Open Codex Computer History](https://github.com/hqhq1025/open-codex-computer-history), [OpenClaw Logbook](https://github.com/openclaw/openclaw/tree/main/extensions/logbook) |
+| Demonstration and replay | [Open Codex Record & Replay](https://github.com/hqhq1025/open-codex-record-and-replay), [OpenClaw CUA Provider](https://github.com/openclaw/openclaw/tree/main/extensions/cua-computer) |
 | Evaluation and training | [CUA](https://github.com/trycua/cua), [LongHorizon Harness](https://github.com/AMAP-ML/LongHorizon-Harness) |
 | Compatibility bridges | [Kimi Computer Use](https://github.com/songkeys/kimi-computer-use) |
 | Reverse engineering and clean-room research | [Codex Computer Use Reverse Engineering Lab](https://github.com/hqhq1025/codex-computer-use-lab), [Kimi Computer Use Reverse Engineering Lab](https://github.com/hqhq1025/kimi-computer-use-lab), [Open ZCode Computer Use](https://github.com/hqhq1025/open-zcode-computer-use) |
@@ -131,21 +131,59 @@ observe and act
 
 ## OpenClaw Ecosystem
 
-- [OpenClaw](https://github.com/openclaw/openclaw)
-  - Personal agent platform with a built-in Computer Use tool, paired desktop
-    nodes, and selectable Peekaboo or CUA Driver execution providers.
-  - `macOS` `Windows` `Linux` `Desktop execution` `Browser execution` `MIT`
+- [OpenClaw Built-in Computer Tool](https://github.com/openclaw/openclaw/blob/main/src/agents/tools/computer-tool.ts)
+  - Capability-driven agent tool that observes through `screen.snapshot` and
+    executes through `computer.act`. It binds coordinate actions to captured
+    frames, returns post-action screenshots, and exposes only the action,
+    target, observation, and delivery families advertised by the selected
+    node provider.
+  - `Desktop execution` `Paired nodes` `Screenshots` `Capability discovery` `MIT`
 - [Peekaboo](https://github.com/openclaw/Peekaboo)
-  - Official macOS CLI, app, and MCP server for screen capture, accessibility
-    inspection, native UI automation, and agent-driven workflows.
-  - `macOS` `Accessibility` `MCP` `CLI` `Swift` `MIT`
+  - OpenClaw's default macOS Computer Use provider. Its native Swift runtime
+    supplies screen capture, accessibility inspection, clicks, typing, menus,
+    dialogs, Dock actions, and window management without a separate driver
+    daemon.
+  - `macOS` `Computer Use provider` `Accessibility` `CoreGraphics` `Swift` `MIT`
+- [OpenClaw CUA Computer Provider](https://github.com/openclaw/openclaw/tree/main/extensions/cua-computer)
+  - CUA Driver-backed provider for desktop, window, and element control on
+    macOS, Windows, and Linux. It also exposes browser preparation,
+    navigation, element interaction, dialogs, downloads, file inputs,
+    recording, and trajectory replay through execution-scoped opaque handles.
+  - `macOS` `Windows` `Linux` `Browser execution` `Record and replay` `CUA Driver` `MIT`
+- [OpenClaw Codex Computer Use Integration](https://github.com/openclaw/openclaw/tree/main/extensions/codex)
+  - Prepares Codex app-server to discover, install, enable, and health-check
+    the native Codex Computer Use MCP plugin. Codex owns the native tool calls;
+    this path is separate from OpenClaw's Peekaboo and CUA node providers.
+  - `macOS` `Codex` `MCP` `Plugin lifecycle` `Health checks` `MIT`
+- [OpenClaw Logbook](https://github.com/openclaw/openclaw/tree/main/extensions/logbook)
+  - Optional automatic work journal that samples screen snapshots, turns them
+    into timestamped timeline cards, generates daily standup notes, and answers
+    questions grounded in a tracked day's activity.
+  - `Computer history` `Screen activity` `Timeline` `Daily summaries` `MIT`
 
 ## Hermes Agent Ecosystem
 
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent)
-  - General agent with a built-in, any-model Computer Use toolset that drives
-    macOS, Windows, and Linux desktops through CUA Driver.
-  - `macOS` `Windows` `Linux` `CUA Driver` `MCP` `Python` `MIT`
+- [Hermes Computer Use Toolset](https://github.com/NousResearch/hermes-agent/tree/main/tools/computer_use)
+  - Model-agnostic `computer_use` tool for capture, app and window discovery,
+    clicks, drag, scroll, typing, keys, value setting, and app focus. It
+    supports screenshot, set-of-marks, and accessibility-tree observations,
+    prefers background input, and returns structured verify-or-escalate
+    verdicts after actions.
+  - `macOS` `Windows` `Linux` `Desktop execution` `Set of marks` `Accessibility` `Python` `MIT`
+- [Hermes CUA Driver Backend](https://github.com/NousResearch/hermes-agent/blob/main/tools/computer_use/cua_backend.py)
+  - Cross-platform backend that runs CUA Driver as an MCP stdio service,
+    maintains a session-scoped execution surface, and maps Hermes permission
+    modes and approvals onto desktop actions. Installation, status, and
+    structured diagnostics are available through `hermes computer-use`. The
+    backend contains recording and trajectory-replay methods, but the public
+    `computer_use` tool schema does not currently expose those actions.
+  - `macOS` `Windows` `Linux` `CUA Driver` `MCP` `Diagnostics` `Permissions` `MIT`
+- [Hermes Browser Automation](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/browser.md)
+  - Separate browser toolset supporting Browser Use CLI, local Chromium over
+    CDP, agent-browser, Lightpanda, Camofox, and Browser Use, Browserbase, or
+    Firecrawl cloud sessions. It includes isolated sessions, optional
+    real-profile snapshots, and local sidecars for private URLs.
+  - `Browser execution` `Browser Use` `CDP` `Cloud browsers` `Session isolation` `MIT`
 
 ## Independent Applications
 
