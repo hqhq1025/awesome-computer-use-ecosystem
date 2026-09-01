@@ -45,8 +45,9 @@ observe and act
 | Capability | Projects |
 | --- | --- |
 | Desktop execution | [Open Computer Use](https://github.com/iFurySt/open-codex-computer-use), [Qwen Open Computer Use](https://github.com/QwenLM/open-computer-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [MacosUseSDK](https://github.com/mediar-ai/MacosUseSDK), [Apache Maka (Incubating)](https://github.com/apache/maka), [Maka CU](https://github.com/maka-agent/maka-cu), [OpenClaw Computer Tool](https://github.com/openclaw/openclaw/blob/main/src/agents/tools/computer-tool.ts), [Peekaboo](https://github.com/openclaw/Peekaboo), [Hermes Computer Use](https://github.com/NousResearch/hermes-agent/tree/main/tools/computer_use), [Tactile](https://github.com/yliust/Tactile), [Open ZCode Computer Use](https://github.com/hqhq1025/open-zcode-computer-use) |
-| Browser execution | [Open Browser Use](https://github.com/iFurySt/open-browser-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Qwen CUA Driver](https://github.com/QwenLM/qwen-code/tree/main/packages/cua-driver), [OpenClaw CUA Provider](https://github.com/openclaw/openclaw/tree/main/extensions/cua-computer), [Hermes Browser Automation](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/browser.md) |
+| Browser execution | [Open Browser Use](https://github.com/iFurySt/open-browser-use), [Playwright MCP](https://github.com/microsoft/playwright-mcp), [Playwright CLI](https://github.com/microsoft/playwright-cli), [OpenCLI](https://github.com/jackwener/OpenCLI), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Qwen CUA Driver](https://github.com/QwenLM/qwen-code/tree/main/packages/cua-driver), [OpenClaw CUA Provider](https://github.com/openclaw/openclaw/tree/main/extensions/cua-computer), [Hermes Browser Automation](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/browser.md) |
 | Accessibility and semantic grounding | [MacosUseSDK](https://github.com/mediar-ai/MacosUseSDK), [Tactile](https://github.com/yliust/Tactile), [Peekaboo](https://github.com/openclaw/Peekaboo), [Hermes Computer Use](https://github.com/NousResearch/hermes-agent/tree/main/tools/computer_use) |
+| Agent-native interfaces and harnesses | [OpenCLI](https://github.com/jackwener/OpenCLI), [CLI-Anything](https://github.com/HKUDS/CLI-Anything) |
 | Memory and history | [Open Codex Computer History](https://github.com/hqhq1025/open-codex-computer-history), [OpenClaw Logbook](https://github.com/openclaw/openclaw/tree/main/extensions/logbook) |
 | Demonstration and replay | [Open Codex Record & Replay](https://github.com/hqhq1025/open-codex-record-and-replay), [OpenClaw CUA Provider](https://github.com/openclaw/openclaw/tree/main/extensions/cua-computer) |
 | Evaluation and training | [CUA](https://github.com/trycua/cua), [LongHorizon Harness](https://github.com/AMAP-ML/LongHorizon-Harness) |
@@ -187,6 +188,36 @@ observe and act
   - `Browser execution` `Browser Use` `CDP` `Cloud browsers` `Session isolation` `MIT`
 
 ## Independent Runtimes and Applications
+
+- [Playwright MCP](https://github.com/microsoft/playwright-mcp)
+  - Official Playwright MCP server for agents that operate Chromium, Firefox,
+    and WebKit through structured accessibility snapshots and deterministic
+    browser actions. It supports persistent browser context and rich page
+    introspection without requiring a vision model.
+  - `Browser execution` `Accessibility snapshots` `MCP` `Playwright` `TypeScript` `Apache-2.0`
+
+- [Playwright CLI](https://github.com/microsoft/playwright-cli)
+  - Official token-efficient CLI and Agent Skill interface for Playwright.
+    It provides snapshot refs, browser actions, named or persistent sessions,
+    storage and network controls, screenshots, tracing, video recording, test
+    generation, and a dashboard for monitoring or taking over agent sessions.
+  - `Browser execution` `CLI` `Agent Skills` `Session management` `Testing` `TypeScript` `Apache-2.0`
+
+- [OpenCLI](https://github.com/jackwener/OpenCLI)
+  - Turns websites and Electron applications into deterministic commands while
+    reusing the user's logged-in Chrome profiles. Its browser bridge exposes
+    DOM snapshots, navigation, interaction, extraction, network inspection,
+    tabs, screenshots, and adapter generation through CLI-oriented Agent
+    Skills.
+  - `Browser execution` `Logged-in browser` `Electron` `CDP` `CLI` `Agent Skills` `Apache-2.0`
+
+- [CLI-Anything](https://github.com/HKUDS/CLI-Anything)
+  - Framework and registry for generating agent-native CLI harnesses around
+    desktop software, creative tools, engineering applications, and services.
+    Generated harnesses use structured JSON, reusable Skills, tests, stateful
+    sessions, and preview or trajectory loops so agents can operate application
+    capabilities through deterministic commands.
+  - `Application harnesses` `CLI generation` `Agent Skills` `Structured output` `Python` `Apache-2.0`
 
 - [MacosUseSDK](https://github.com/mediar-ai/MacosUseSDK)
   - Native Swift library and CLI toolkit for traversing macOS Accessibility
