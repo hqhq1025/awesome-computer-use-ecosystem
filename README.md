@@ -33,7 +33,9 @@ observe and act
 - [Kimi Ecosystem](#kimi-ecosystem)
 - [Z.ai and ZCode Ecosystem](#zai-and-zcode-ecosystem)
 - [CUA Ecosystem](#cua-ecosystem)
-- [Maka Ecosystem](#maka-ecosystem)
+- [Apache Maka (Incubating) Ecosystem](#apache-maka-incubating-ecosystem)
+- [OpenClaw Ecosystem](#openclaw-ecosystem)
+- [Hermes Agent Ecosystem](#hermes-agent-ecosystem)
 - [Independent Applications](#independent-applications)
 - [Scope and Inclusion Criteria](#scope-and-inclusion-criteria)
 - [Contributing](#contributing)
@@ -42,10 +44,10 @@ observe and act
 
 | Capability | Projects |
 | --- | --- |
-| Desktop execution | [Open Computer Use](https://github.com/iFurySt/open-codex-computer-use), [Qwen Open Computer Use](https://github.com/QwenLM/open-computer-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Maka CU](https://github.com/maka-agent/maka-cu), [Open ZCode Computer Use](https://github.com/hqhq1025/open-zcode-computer-use) |
-| Browser execution | [Open Browser Use](https://github.com/iFurySt/open-browser-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Qwen CUA Driver](https://github.com/QwenLM/qwen-code/tree/main/packages/cua-driver) |
+| Desktop execution | [Open Computer Use](https://github.com/iFurySt/open-codex-computer-use), [Qwen Open Computer Use](https://github.com/QwenLM/open-computer-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Apache Maka (Incubating)](https://github.com/apache/maka), [Maka CU](https://github.com/maka-agent/maka-cu), [OpenClaw](https://github.com/openclaw/openclaw), [Peekaboo](https://github.com/openclaw/Peekaboo), [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Open ZCode Computer Use](https://github.com/hqhq1025/open-zcode-computer-use) |
+| Browser execution | [Open Browser Use](https://github.com/iFurySt/open-browser-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Qwen CUA Driver](https://github.com/QwenLM/qwen-code/tree/main/packages/cua-driver), [OpenClaw](https://github.com/openclaw/openclaw) |
 | Memory and history | [Open Codex Computer History](https://github.com/hqhq1025/open-codex-computer-history) |
-| Demonstration and replay | [Open Codex Record & Replay](https://github.com/hqhq1025/open-codex-record-and-replay) |
+| Demonstration and replay | [Open Codex Record & Replay](https://github.com/hqhq1025/open-codex-record-and-replay), [OpenClaw](https://github.com/openclaw/openclaw) |
 | Evaluation and training | [CUA](https://github.com/trycua/cua), [LongHorizon Harness](https://github.com/AMAP-ML/LongHorizon-Harness) |
 | Compatibility bridges | [Kimi Computer Use](https://github.com/songkeys/kimi-computer-use) |
 | Reverse engineering and clean-room research | [Codex Computer Use Reverse Engineering Lab](https://github.com/hqhq1025/codex-computer-use-lab), [Kimi Computer Use Reverse Engineering Lab](https://github.com/hqhq1025/kimi-computer-use-lab), [Open ZCode Computer Use](https://github.com/hqhq1025/open-zcode-computer-use) |
@@ -114,12 +116,36 @@ observe and act
     agents that operate full desktops.
   - `macOS` `Linux` `Windows` `Sandbox` `SDK` `MIT`
 
-## Maka Ecosystem
+## Apache Maka (Incubating) Ecosystem
+
+- [Apache Maka (Incubating)](https://github.com/apache/maka)
+  - Local-first agent workspace with an optional Computer Use runtime,
+    snapshot-bound actions, native executor supervision, and durable execution
+    records.
+  - `macOS` `Agent workspace` `Computer Use` `Electron` `Apache-2.0`
 
 - [Maka CU](https://github.com/maka-agent/maka-cu)
-  - Native macOS execution layer for Maka Computer Use, derived from Open
-    Computer Use with Maka-specific targeting and runtime integration.
+  - Native macOS execution layer used by Apache Maka's Computer Use runtime,
+    with Maka-specific targeting and protocol integration.
   - `macOS` `Maka` `Accessibility` `Swift` `MIT`
+
+## OpenClaw Ecosystem
+
+- [OpenClaw](https://github.com/openclaw/openclaw)
+  - Personal agent platform with a built-in Computer Use tool, paired desktop
+    nodes, and selectable Peekaboo or CUA Driver execution providers.
+  - `macOS` `Windows` `Linux` `Desktop execution` `Browser execution` `MIT`
+- [Peekaboo](https://github.com/openclaw/Peekaboo)
+  - Official macOS CLI, app, and MCP server for screen capture, accessibility
+    inspection, native UI automation, and agent-driven workflows.
+  - `macOS` `Accessibility` `MCP` `CLI` `Swift` `MIT`
+
+## Hermes Agent Ecosystem
+
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent)
+  - General agent with a built-in, any-model Computer Use toolset that drives
+    macOS, Windows, and Linux desktops through CUA Driver.
+  - `macOS` `Windows` `Linux` `CUA Driver` `MCP` `Python` `MIT`
 
 ## Independent Applications
 
