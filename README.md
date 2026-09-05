@@ -47,8 +47,8 @@ observe and act
 | --- | --- |
 | Desktop execution | [Open Computer Use](https://github.com/iFurySt/open-codex-computer-use), [Qwen Open Computer Use](https://github.com/QwenLM/open-computer-use), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [MacosUseSDK](https://github.com/mediar-ai/MacosUseSDK), [Apache Maka (Incubating)](https://github.com/apache/maka), [Maka CU](https://github.com/maka-agent/maka-cu), [OpenClaw Computer Tool](https://github.com/openclaw/openclaw/blob/main/src/agents/tools/computer-tool.ts), [Peekaboo](https://github.com/openclaw/Peekaboo), [Hermes Computer Use](https://github.com/NousResearch/hermes-agent/tree/main/tools/computer_use), [Pi Computer Use](https://github.com/injaneity/pi-computer-use), [Tactile](https://github.com/yliust/Tactile), [Open ZCode Computer Use](https://github.com/hqhq1025/open-zcode-computer-use) |
 | Browser execution | [Open Browser Use](https://github.com/iFurySt/open-browser-use), [Playwright MCP](https://github.com/microsoft/playwright-mcp), [Playwright CLI](https://github.com/microsoft/playwright-cli), [OpenCLI](https://github.com/jackwener/OpenCLI), [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver), [Qwen CUA Driver](https://github.com/QwenLM/qwen-code/tree/main/packages/cua-driver), [OpenClaw CUA Provider](https://github.com/openclaw/openclaw/tree/main/extensions/cua-computer), [Hermes Browser Automation](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/browser.md), [Pi Computer Use](https://github.com/injaneity/pi-computer-use) |
-| Accessibility and semantic grounding | [MacosUseSDK](https://github.com/mediar-ai/MacosUseSDK), [Tactile](https://github.com/yliust/Tactile), [Peekaboo](https://github.com/openclaw/Peekaboo), [Hermes Computer Use](https://github.com/NousResearch/hermes-agent/tree/main/tools/computer_use), [Pi Computer Use](https://github.com/injaneity/pi-computer-use) |
-| Agent-native interfaces and harnesses | [OpenCLI](https://github.com/jackwener/OpenCLI), [CLI-Anything](https://github.com/HKUDS/CLI-Anything), [Pi Computer Use](https://github.com/injaneity/pi-computer-use) |
+| Accessibility and semantic grounding | [MacosUseSDK](https://github.com/mediar-ai/MacosUseSDK), [Tactile](https://github.com/yliust/Tactile), [Peekaboo](https://github.com/openclaw/Peekaboo), [Hermes Computer Use](https://github.com/NousResearch/hermes-agent/tree/main/tools/computer_use), [Pi Computer Use](https://github.com/injaneity/pi-computer-use), [Better AX for Computer Use](https://github.com/hqhq1025/better-ax-for-computer-use) |
+| Agent-native interfaces and harnesses | [OpenCLI](https://github.com/jackwener/OpenCLI), [CLI-Anything](https://github.com/HKUDS/CLI-Anything), [Pi Computer Use](https://github.com/injaneity/pi-computer-use), [Better AX for Computer Use](https://github.com/hqhq1025/better-ax-for-computer-use) |
 | Memory and history | [Open Codex Computer History](https://github.com/hqhq1025/open-codex-computer-history), [OpenClaw Logbook](https://github.com/openclaw/openclaw/tree/main/extensions/logbook) |
 | Demonstration and replay | [Open Codex Record & Replay](https://github.com/hqhq1025/open-codex-record-and-replay), [OpenClaw CUA Provider](https://github.com/openclaw/openclaw/tree/main/extensions/cua-computer) |
 | Evaluation and training | [CUA](https://github.com/trycua/cua), [LongHorizon Harness](https://github.com/AMAP-ML/LongHorizon-Harness) |
@@ -229,6 +229,12 @@ observe and act
     sessions, and preview or trajectory loops so agents can operate application
     capabilities through deterministic commands.
   - `Application harnesses` `CLI generation` `Agent Skills` `Structured output` `Python` `Apache-2.0`
+
+- [Better AX for Computer Use](https://github.com/hqhq1025/better-ax-for-computer-use)
+  - Developer Agent Skill for improving accessibility semantics in
+    source-modifiable applications, with a partial Chromium AX audit tool and
+    guidance for verifying focus, actions, and business effects.
+  - `Agent Skills` `Accessibility` `Application development` `Chromium` `JavaScript` `MIT`
 
 - [MacosUseSDK](https://github.com/mediar-ai/MacosUseSDK)
   - Native Swift library and CLI toolkit for traversing macOS Accessibility
