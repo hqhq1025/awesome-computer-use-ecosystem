@@ -1,0 +1,36 @@
+# Awesome Computer Use Ecosystem
+
+> A curated directory of Computer Use applications, desktop and browser automation,
+> accessibility tools, computer history, record and replay, and evaluation for AI agents.
+
+The canonical source is the GitHub README. Projects are grouped by ecosystem and
+indexed by capability. Descriptions distinguish implementations, bridges, developer
+tools, and research. Platform tags are not guarantees of feature parity.
+
+## Main sources
+
+- [Complete project descriptions](https://raw.githubusercontent.com/hqhq1025/awesome-computer-use-ecosystem/main/README.md): Canonical list in plain Markdown.
+- [Structured catalog](https://raw.githubusercontent.com/hqhq1025/awesome-computer-use-ecosystem/main/data/projects.json): Names, URLs, ecosystem, descriptions, tags, and capabilities generated from the README.
+- [Chinese navigation](https://raw.githubusercontent.com/hqhq1025/awesome-computer-use-ecosystem/main/docs/README.zh-CN.md): Chinese task and ecosystem guide.
+- [Contribution criteria](https://raw.githubusercontent.com/hqhq1025/awesome-computer-use-ecosystem/main/CONTRIBUTING.md): Inclusion, evidence, and maintenance requirements.
+- [List change history](https://github.com/hqhq1025/awesome-computer-use-ecosystem/commits/main/README.md): Changes to the list, not upstream verification dates.
+
+## Ecosystems
+
+- [Codex Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#codex-ecosystem): Project entries in this group.
+- [Qwen Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#qwen-ecosystem): Project entries in this group.
+- [Kimi Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#kimi-ecosystem): Project entries in this group.
+- [Z.ai and ZCode Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#zai-and-zcode-ecosystem): Project entries in this group.
+- [CUA Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#cua-ecosystem): Project entries in this group.
+- [Apache Maka (Incubating) Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#apache-maka-incubating-ecosystem): Project entries in this group.
+- [OpenClaw Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#openclaw-ecosystem): Project entries in this group.
+- [Hermes Agent Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#hermes-agent-ecosystem): Project entries in this group.
+- [Pi Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#pi-ecosystem): Project entries in this group.
+- [Independent Runtimes and Applications](https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications): Project entries in this group.
+
+## Scope and licensing
+
+Maintained by Haoqing Wang and community contributors. The catalog is CC0-1.0;
+listed projects retain their own licenses, including noncommercial restrictions.
+Inclusion does not imply vendor affiliation, endorsement, a security audit, or
+accessibility certification. Consult upstream sources for current capabilities.

@@ -19,6 +19,27 @@ Use this format:
 Keep the description under 30 words. Do not use promotional claims such as
 "best", "leading", or "revolutionary".
 
+Edit project facts in `README.md`, then regenerate the machine-readable
+navigation and catalog with Node.js 22 or newer:
+
+```sh
+node scripts/catalog.mjs
+node --test scripts/catalog.test.mjs
+node scripts/catalog.mjs --check
+```
+
+Commit `data/projects.json` and `llms.txt` with the README changes. Do not edit
+generated files by hand. CI checks generation drift, entry completeness,
+duplicate URLs, capability references, and README navigation anchors.
+It does not verify upstream availability, licenses, or runtime capabilities.
+An empty `capabilities` array means an entry has no link in the capability
+index; it is not a claim that the project has no capabilities.
+
+Keep the Chinese guide's ecosystem links aligned with the English list.
+Do not refresh dates unless the corresponding facts were actually verified.
+See [repository discoverability](docs/discoverability.md) for hosting boundaries
+and the scope of the search and AI-readability improvements.
+
 In the pull request description, include:
 
 - the product ecosystem or independent-project group it belongs to;

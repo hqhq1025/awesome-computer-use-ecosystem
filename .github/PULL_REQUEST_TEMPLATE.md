@@ -14,6 +14,7 @@
 - [ ] The description is factual and under 30 words.
 - [ ] The project documents its relationship to proprietary software.
 - [ ] The project contains meaningful code or reproducible evidence.
+- [ ] I regenerated the catalog and ran its tests and `--check` command.
 
 ## Why It Belongs
 

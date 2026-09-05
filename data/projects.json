@@ -1,0 +1,594 @@
+{
+  "schemaVersion": 1,
+  "name": "Awesome Computer Use Ecosystem",
+  "url": "https://github.com/hqhq1025/awesome-computer-use-ecosystem",
+  "source": "https://raw.githubusercontent.com/hqhq1025/awesome-computer-use-ecosystem/main/README.md",
+  "license": "CC0-1.0",
+  "licenseScope": "Catalog content only; listed projects retain their own licenses.",
+  "capabilities": [
+    "Desktop execution",
+    "Browser execution",
+    "Accessibility and semantic grounding",
+    "Agent-native interfaces and harnesses",
+    "Memory and history",
+    "Demonstration and replay",
+    "Evaluation and training",
+    "Compatibility bridges",
+    "Reverse engineering and clean-room research"
+  ],
+  "projects": [
+    {
+      "name": "Open Computer Use",
+      "url": "https://github.com/iFurySt/open-codex-computer-use",
+      "ecosystem": "Codex Ecosystem",
+      "description": "Open implementation of the Codex Computer Use execution layer, exposed through MCP with native accessibility, screenshot, and input backends.",
+      "tags": [
+        "macOS",
+        "Linux",
+        "Windows",
+        "Desktop execution",
+        "MCP",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#codex-ecosystem"
+    },
+    {
+      "name": "Open Browser Use",
+      "url": "https://github.com/iFurySt/open-browser-use",
+      "ecosystem": "Codex Ecosystem",
+      "description": "Open implementation of the browser execution path reconstructed from the Codex Computer Use ecosystem, with a Chrome extension, CLI, MCP server, and JavaScript, Python, and Go SDKs.",
+      "tags": [
+        "Chrome",
+        "Browser execution",
+        "MCP",
+        "CLI",
+        "SDK",
+        "MIT"
+      ],
+      "capabilities": [
+        "Browser execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#codex-ecosystem"
+    },
+    {
+      "name": "Codex Computer Use Reverse Engineering Lab",
+      "url": "https://github.com/hqhq1025/codex-computer-use-lab",
+      "ecosystem": "Codex Ecosystem",
+      "description": "Experiment-backed analysis of the macOS Codex Computer Use architecture, protocol, accessibility state, input path, policy gates, and lifecycle.",
+      "tags": [
+        "macOS",
+        "Reverse engineering",
+        "Protocol",
+        "MIT"
+      ],
+      "capabilities": [
+        "Reverse engineering and clean-room research"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#codex-ecosystem"
+    },
+    {
+      "name": "Open Codex Computer History",
+      "url": "https://github.com/hqhq1025/open-codex-computer-history",
+      "ecosystem": "Codex Ecosystem",
+      "description": "Clean-room event history for desktop interaction, with privacy filtering, summaries, search, MCP tools, and native macOS recording.",
+      "tags": [
+        "macOS",
+        "History",
+        "Event stream",
+        "Swift",
+        "MIT"
+      ],
+      "capabilities": [
+        "Memory and history"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#codex-ecosystem"
+    },
+    {
+      "name": "Open Codex Record & Replay",
+      "url": "https://github.com/hqhq1025/open-codex-record-and-replay",
+      "ecosystem": "Codex Ecosystem",
+      "description": "Open record-and-replay pipeline spanning native capture, session storage, evaluation, workflow controls, and reusable agent Skill generation.",
+      "tags": [
+        "macOS",
+        "Demonstration",
+        "Replay",
+        "Skill generation",
+        "MIT"
+      ],
+      "capabilities": [
+        "Demonstration and replay"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#codex-ecosystem"
+    },
+    {
+      "name": "Qwen Open Computer Use",
+      "url": "https://github.com/QwenLM/open-computer-use",
+      "ecosystem": "Qwen Ecosystem",
+      "description": "Qwen Code's cross-platform adaptation of Open Computer Use, distributed as an MCP service and command-line tool for Qwen Code and other agents.",
+      "tags": [
+        "macOS",
+        "Linux",
+        "Windows",
+        "Qwen Code",
+        "MCP",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#qwen-ecosystem"
+    },
+    {
+      "name": "Qwen CUA Driver",
+      "url": "https://github.com/QwenLM/qwen-code/tree/main/packages/cua-driver",
+      "ecosystem": "Qwen Ecosystem",
+      "description": "Qwen Code's vendored distribution of CUA Driver, with Qwen-owned product identity, patches, releases, and Python and TypeScript SDK integration.",
+      "tags": [
+        "macOS",
+        "Linux",
+        "Windows",
+        "Browser",
+        "MCP",
+        "Rust",
+        "Apache-2.0"
+      ],
+      "capabilities": [
+        "Browser execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#qwen-ecosystem"
+    },
+    {
+      "name": "Kimi Computer Use",
+      "url": "https://github.com/songkeys/kimi-computer-use",
+      "ecosystem": "Kimi Ecosystem",
+      "description": "Unofficial bridge that lets Kimi Code use an existing OpenAI Computer Use installation on macOS; it is separate from the proprietary KimiCU runtime.",
+      "tags": [
+        "macOS",
+        "Kimi Code",
+        "MCP",
+        "Bridge",
+        "MIT"
+      ],
+      "capabilities": [
+        "Compatibility bridges"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#kimi-ecosystem"
+    },
+    {
+      "name": "Kimi Computer Use Reverse Engineering Lab",
+      "url": "https://github.com/hqhq1025/kimi-computer-use-lab",
+      "ecosystem": "Kimi Ecosystem",
+      "description": "Static and controlled dynamic study of KimiCU 0.5.4, covering packaging, MCP, native modules, XPC trust, WebView input, and stale-element behavior.",
+      "tags": [
+        "macOS",
+        "Kimi Code",
+        "Research",
+        "Security",
+        "MIT"
+      ],
+      "capabilities": [
+        "Reverse engineering and clean-room research"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#kimi-ecosystem"
+    },
+    {
+      "name": "Open ZCode Computer Use",
+      "url": "https://github.com/hqhq1025/open-zcode-computer-use",
+      "ecosystem": "Z.ai and ZCode Ecosystem",
+      "description": "Clean-room macOS implementation of the ZCode CUA 0.5.12 MCP contract, with all 30 tool schemas and independently implemented execution.",
+      "tags": [
+        "macOS",
+        "Z.ai",
+        "ZCode",
+        "Clean room",
+        "MCP",
+        "JavaScript",
+        "Swift",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution",
+        "Reverse engineering and clean-room research"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#zai-and-zcode-ecosystem"
+    },
+    {
+      "name": "CUA Driver",
+      "url": "https://github.com/trycua/cua/tree/main/libs/cua-driver",
+      "ecosystem": "CUA Ecosystem",
+      "description": "Cross-platform desktop and browser automation runtime from CUA, available through MCP, CLI, native SDK bindings, and embeddable interfaces.",
+      "tags": [
+        "macOS",
+        "Linux",
+        "Windows",
+        "Browser",
+        "MCP",
+        "Rust",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution",
+        "Browser execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#cua-ecosystem"
+    },
+    {
+      "name": "CUA",
+      "url": "https://github.com/trycua/cua",
+      "ecosystem": "CUA Ecosystem",
+      "description": "Sandboxes, SDKs, and benchmarks for building, training, and evaluating agents that operate full desktops.",
+      "tags": [
+        "macOS",
+        "Linux",
+        "Windows",
+        "Sandbox",
+        "SDK",
+        "MIT"
+      ],
+      "capabilities": [
+        "Evaluation and training"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#cua-ecosystem"
+    },
+    {
+      "name": "Apache Maka (Incubating)",
+      "url": "https://github.com/apache/maka",
+      "ecosystem": "Apache Maka (Incubating) Ecosystem",
+      "description": "Local-first agent workspace with an optional Computer Use runtime, snapshot-bound actions, native executor supervision, and durable execution records.",
+      "tags": [
+        "macOS",
+        "Agent workspace",
+        "Computer Use",
+        "Electron",
+        "Apache-2.0"
+      ],
+      "capabilities": [
+        "Desktop execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#apache-maka-incubating-ecosystem"
+    },
+    {
+      "name": "Maka CU",
+      "url": "https://github.com/maka-agent/maka-cu",
+      "ecosystem": "Apache Maka (Incubating) Ecosystem",
+      "description": "Native macOS execution layer used by Apache Maka's Computer Use runtime, with Maka-specific targeting and protocol integration.",
+      "tags": [
+        "macOS",
+        "Maka",
+        "Accessibility",
+        "Swift",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#apache-maka-incubating-ecosystem"
+    },
+    {
+      "name": "OpenClaw Built-in Computer Tool",
+      "url": "https://github.com/openclaw/openclaw/blob/main/src/agents/tools/computer-tool.ts",
+      "ecosystem": "OpenClaw Ecosystem",
+      "description": "Capability-driven agent tool that observes through `screen.snapshot` and executes through `computer.act`. It binds coordinate actions to captured frames, returns post-action screenshots, and exposes only the action, target, observation, and delivery families advertised by the selected node provider.",
+      "tags": [
+        "Desktop execution",
+        "Paired nodes",
+        "Screenshots",
+        "Capability discovery",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#openclaw-ecosystem"
+    },
+    {
+      "name": "Peekaboo",
+      "url": "https://github.com/openclaw/Peekaboo",
+      "ecosystem": "OpenClaw Ecosystem",
+      "description": "OpenClaw's default macOS Computer Use provider. Its native Swift runtime supplies screen capture, accessibility inspection, clicks, typing, menus, dialogs, Dock actions, and window management without a separate driver daemon.",
+      "tags": [
+        "macOS",
+        "Computer Use provider",
+        "Accessibility",
+        "CoreGraphics",
+        "Swift",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution",
+        "Accessibility and semantic grounding"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#openclaw-ecosystem"
+    },
+    {
+      "name": "OpenClaw CUA Computer Provider",
+      "url": "https://github.com/openclaw/openclaw/tree/main/extensions/cua-computer",
+      "ecosystem": "OpenClaw Ecosystem",
+      "description": "CUA Driver-backed provider for desktop, window, and element control on macOS, Windows, and Linux. It also exposes browser preparation, navigation, element interaction, dialogs, downloads, file inputs, recording, and trajectory replay through execution-scoped opaque handles.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Browser execution",
+        "Record and replay",
+        "CUA Driver",
+        "MIT"
+      ],
+      "capabilities": [
+        "Browser execution",
+        "Demonstration and replay"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#openclaw-ecosystem"
+    },
+    {
+      "name": "OpenClaw Codex Computer Use Integration",
+      "url": "https://github.com/openclaw/openclaw/tree/main/extensions/codex",
+      "ecosystem": "OpenClaw Ecosystem",
+      "description": "Prepares Codex app-server to discover, install, enable, and health-check the native Codex Computer Use MCP plugin. Codex owns the native tool calls; this path is separate from OpenClaw's Peekaboo and CUA node providers.",
+      "tags": [
+        "macOS",
+        "Codex",
+        "MCP",
+        "Plugin lifecycle",
+        "Health checks",
+        "MIT"
+      ],
+      "capabilities": [],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#openclaw-ecosystem"
+    },
+    {
+      "name": "OpenClaw Logbook",
+      "url": "https://github.com/openclaw/openclaw/tree/main/extensions/logbook",
+      "ecosystem": "OpenClaw Ecosystem",
+      "description": "Optional automatic work journal that samples screen snapshots, turns them into timestamped timeline cards, generates daily standup notes, and answers questions grounded in a tracked day's activity.",
+      "tags": [
+        "Computer history",
+        "Screen activity",
+        "Timeline",
+        "Daily summaries",
+        "MIT"
+      ],
+      "capabilities": [
+        "Memory and history"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#openclaw-ecosystem"
+    },
+    {
+      "name": "Hermes Computer Use Toolset",
+      "url": "https://github.com/NousResearch/hermes-agent/tree/main/tools/computer_use",
+      "ecosystem": "Hermes Agent Ecosystem",
+      "description": "Model-agnostic `computer_use` tool for capture, app and window discovery, clicks, drag, scroll, typing, keys, value setting, and app focus. It supports screenshot, set-of-marks, and accessibility-tree observations, prefers background input, and returns structured verify-or-escalate verdicts after actions.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Desktop execution",
+        "Set of marks",
+        "Accessibility",
+        "Python",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution",
+        "Accessibility and semantic grounding"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#hermes-agent-ecosystem"
+    },
+    {
+      "name": "Hermes CUA Driver Backend",
+      "url": "https://github.com/NousResearch/hermes-agent/blob/main/tools/computer_use/cua_backend.py",
+      "ecosystem": "Hermes Agent Ecosystem",
+      "description": "Cross-platform backend that runs CUA Driver as an MCP stdio service, maintains a session-scoped execution surface, and maps Hermes permission modes and approvals onto desktop actions. Installation, status, and structured diagnostics are available through `hermes computer-use`. The backend contains recording and trajectory-replay methods, but the public `computer_use` tool schema does not currently expose those actions.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "CUA Driver",
+        "MCP",
+        "Diagnostics",
+        "Permissions",
+        "MIT"
+      ],
+      "capabilities": [],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#hermes-agent-ecosystem"
+    },
+    {
+      "name": "Hermes Browser Automation",
+      "url": "https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/browser.md",
+      "ecosystem": "Hermes Agent Ecosystem",
+      "description": "Separate browser toolset supporting Browser Use CLI, local Chromium over CDP, agent-browser, Lightpanda, Camofox, and Browser Use, Browserbase, or Firecrawl cloud sessions. It includes isolated sessions, optional real-profile snapshots, and local sidecars for private URLs.",
+      "tags": [
+        "Browser execution",
+        "Browser Use",
+        "CDP",
+        "Cloud browsers",
+        "Session isolation",
+        "MIT"
+      ],
+      "capabilities": [
+        "Browser execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#hermes-agent-ecosystem"
+    },
+    {
+      "name": "Pi Computer Use",
+      "url": "https://github.com/injaneity/pi-computer-use",
+      "ecosystem": "Pi Ecosystem",
+      "description": "Pi Coding Agent extension that exposes desktop windows and managed CDP pages through one immutable, state-scoped interface. It combines macOS Accessibility, Windows UI Automation, and Linux AT-SPI2 semantics with platform-specific capture and policy-gated input for observation, search, checked actions, text reading, and UI-change waits.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Browser execution",
+        "Pi extension",
+        "Accessibility",
+        "CDP",
+        "TypeScript",
+        "Rust",
+        "Swift",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution",
+        "Browser execution",
+        "Accessibility and semantic grounding",
+        "Agent-native interfaces and harnesses"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#pi-ecosystem"
+    },
+    {
+      "name": "Playwright MCP",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Official Playwright MCP server for agents that operate Chromium, Firefox, and WebKit through structured accessibility snapshots and deterministic browser actions. It supports persistent browser context and rich page introspection without requiring a vision model.",
+      "tags": [
+        "Browser execution",
+        "Accessibility snapshots",
+        "MCP",
+        "Playwright",
+        "TypeScript",
+        "Apache-2.0"
+      ],
+      "capabilities": [
+        "Browser execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
+      "name": "Playwright CLI",
+      "url": "https://github.com/microsoft/playwright-cli",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Official token-efficient CLI and Agent Skill interface for Playwright. It provides snapshot refs, browser actions, named or persistent sessions, storage and network controls, screenshots, tracing, video recording, test generation, and a dashboard for monitoring or taking over agent sessions.",
+      "tags": [
+        "Browser execution",
+        "CLI",
+        "Agent Skills",
+        "Session management",
+        "Testing",
+        "TypeScript",
+        "Apache-2.0"
+      ],
+      "capabilities": [
+        "Browser execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
+      "name": "OpenCLI",
+      "url": "https://github.com/jackwener/OpenCLI",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Turns websites and Electron applications into deterministic commands while reusing the user's logged-in Chrome profiles. Its browser bridge exposes DOM snapshots, navigation, interaction, extraction, network inspection, tabs, screenshots, and adapter generation through CLI-oriented Agent Skills.",
+      "tags": [
+        "Browser execution",
+        "Logged-in browser",
+        "Electron",
+        "CDP",
+        "CLI",
+        "Agent Skills",
+        "Apache-2.0"
+      ],
+      "capabilities": [
+        "Browser execution",
+        "Agent-native interfaces and harnesses"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Framework and registry for generating agent-native CLI harnesses around desktop software, creative tools, engineering applications, and services. Generated harnesses use structured JSON, reusable Skills, tests, stateful sessions, and preview or trajectory loops so agents can operate application capabilities through deterministic commands.",
+      "tags": [
+        "Application harnesses",
+        "CLI generation",
+        "Agent Skills",
+        "Structured output",
+        "Python",
+        "Apache-2.0"
+      ],
+      "capabilities": [
+        "Agent-native interfaces and harnesses"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
+      "name": "Better AX for Computer Use",
+      "url": "https://github.com/hqhq1025/better-ax-for-computer-use",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Developer Agent Skill for improving accessibility semantics in source-modifiable applications, with a partial Chromium AX audit tool and guidance for verifying focus, actions, and business effects.",
+      "tags": [
+        "Agent Skills",
+        "Accessibility",
+        "Application development",
+        "Chromium",
+        "JavaScript",
+        "MIT"
+      ],
+      "capabilities": [
+        "Accessibility and semantic grounding",
+        "Agent-native interfaces and harnesses"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
+      "name": "MacosUseSDK",
+      "url": "https://github.com/mediar-ai/MacosUseSDK",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Native Swift library and CLI toolkit for traversing macOS Accessibility trees and operating other applications through AX actions or CoreGraphics input. It includes app discovery and activation, structured traversal, clicks, typing, keyboard input, scrolling, action-state diffs, and visual overlays for debugging. Tactile's macOS stack bundles and extends these lower-level primitives.",
+      "tags": [
+        "macOS",
+        "SDK",
+        "CLI",
+        "Accessibility",
+        "CoreGraphics",
+        "Swift",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution",
+        "Accessibility and semantic grounding"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
+      "name": "Tactile",
+      "url": "https://github.com/yliust/Tactile",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Accessibility-first operating layer for agents that prioritizes AX or UIA semantics, falls back to OCR-grounded coordinates, and uses visual Computer Use when structured interfaces are insufficient. It includes a nine-tool macOS MCP facade plus macOS and Windows Skills for observation, input, bounded workflows, verification, app guides, traces, and evaluation.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "MCP",
+        "Agent Skills",
+        "Accessibility",
+        "OCR",
+        "Semantic grounding",
+        "PolyForm Noncommercial 1.0.0"
+      ],
+      "capabilities": [
+        "Desktop execution",
+        "Accessibility and semantic grounding"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
+      "name": "LongHorizon Harness",
+      "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Runs long-lived agents across desktop applications and terminals with recoverable state, progress verification, evaluation, and independent auditing.",
+      "tags": [
+        "Desktop",
+        "CLI",
+        "Evaluation",
+        "Long-running agents"
+      ],
+      "capabilities": [
+        "Evaluation and training"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    }
+  ]
+}

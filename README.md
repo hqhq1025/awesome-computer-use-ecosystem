@@ -1,17 +1,29 @@
 # Awesome Computer Use Ecosystem
 
-> Applications, workflows, infrastructure, open implementations, and
-> evidence-backed research for agents that use computers.
+> A curated list of Computer Use tools for AI agents: desktop and browser
+> automation, accessibility, computer history, record and replay, and evaluation.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)](LICENSE)
 
-Computer Use is growing beyond click-and-type automation. Agents can now work
-through desktop applications and browsers, remember past activity, learn from
-demonstrations, replay workflows, and operate inside isolated environments.
+Computer Use lets AI agents observe and operate desktop applications and
+browsers through screenshots, accessibility trees, and input actions. This
+list focuses on practical applications and deployment, including MCP servers,
+SDKs, Agent Skills, activity history, workflow replay, and evaluation tools.
 
 Projects are organized by product ecosystem, with a separate capability index
-for finding implementations that solve the same kind of problem.
+for finding implementations that solve the same kind of problem. Browse the
+Codex, Qwen, Kimi, Z.ai, CUA, Apache Maka (Incubating), OpenClaw, Hermes, and Pi
+ecosystems, alongside independent projects.
+
+[中文导览](docs/README.zh-CN.md) |
+[Project catalog (JSON)](data/projects.json) |
+[AI-readable navigation](llms.txt) |
+[Suggest a project](CONTRIBUTING.md)
+
+Descriptions distinguish open implementations, compatibility bridges, developer
+tools, and research. Platform and license tags describe individual projects;
+check their upstream documentation before adopting them.
 
 ```text
 observe and act
@@ -40,6 +52,7 @@ observe and act
 - [Independent Runtimes and Applications](#independent-runtimes-and-applications)
 - [Scope and Inclusion Criteria](#scope-and-inclusion-criteria)
 - [Contributing](#contributing)
+- [Data and Maintenance](#data-and-maintenance)
 
 ## Browse by Capability
 
@@ -287,6 +300,22 @@ submitting a project.
 Projects are grouped by product ecosystem. The capability index provides a
 second view without duplicating project descriptions. Inclusion is not an
 endorsement, and descriptions should remain factual and concise.
+
+## Data and Maintenance
+
+Maintained by [Haoqing Wang](https://github.com/hqhq1025) with community
+contributions. The canonical list is this README. Its
+[commit history](https://github.com/hqhq1025/awesome-computer-use-ecosystem/commits/main/README.md)
+records list changes; an edit does not mean every upstream project was re-audited.
+
+For programmatic reuse, [projects.json](data/projects.json) contains project
+names, repository or implementation URLs, ecosystem groups, descriptions, tags,
+and capability categories. [llms.txt](llms.txt) links to raw Markdown and JSON
+without a GitHub interface. Both are generated from the README and checked in CI.
+
+The list is licensed under [CC0-1.0](LICENSE). Listed software keeps its own
+license, including any noncommercial restrictions. Inclusion is not a security
+audit, accessibility certification, or endorsement.
 
 ## Disclaimer
 
