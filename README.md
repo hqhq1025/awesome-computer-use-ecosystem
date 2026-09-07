@@ -200,6 +200,20 @@ not individual SDKs or subdirectories, and do not establish adoption or reliabil
 
 ## CUA Ecosystem
 
+Official Cua Driver engineering deep dives explain how observation and background
+input work on each desktop platform:
+
+| Platform | Article | Published | Topics |
+| --- | --- | --- | --- |
+| macOS | [Inside macOS window internals: how SkyLight enables multi-cursor background agents](https://cua.ai/blog/inside-macos-window-internals) | 2026-04-23 | SkyLight event routing, focus without raising windows, accessibility trees, and capture modes |
+| Windows | [Inside Windows computer-use: synthetic cursors for background agents](https://cua.ai/blog/inside-windows-computer-use) | 2026-05-27 | UIA/MSAA, window capture, input routing, synthetic cursor overlays, and interactive-session daemons |
+| Linux | [Inside Linux computer-use: AT-SPI, XTEST, and background agents](https://cua.ai/blog/inside-linux-computer-use) | 2026-06-18 | AT-SPI over D-Bus, toolkit-specific input, X11/XWayland, and native Wayland limitations |
+
+These articles describe their publication-time implementations and include
+limitations and exploratory explanations. For current behavior and platform
+support, consult the [Driver documentation](https://cua.ai/docs/reference/cua-driver/platform-support)
+and source below. They are reading resources, not separate project entries.
+
 - [CUA Driver](https://github.com/trycua/cua/tree/main/libs/cua-driver)
   - Cross-platform desktop and browser automation runtime from CUA, available
     through MCP, CLI, native SDK bindings, and embeddable interfaces.

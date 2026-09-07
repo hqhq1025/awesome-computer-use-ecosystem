@@ -52,6 +52,20 @@
 - [Pi](../README.md#pi-ecosystem)
 - [独立运行时、应用与开发者工具](../README.md#independent-runtimes-and-applications)
 
+## CUA Driver 三端原理
+
+CUA 官方的三篇工程博客适合结合源码阅读：
+
+| 平台 | 官方博客 | 阅读重点 |
+| --- | --- | --- |
+| macOS | [Inside macOS window internals](https://cua.ai/blog/inside-macos-window-internals) | SkyLight 后台事件路由、不抬高窗口的激活方式、无障碍树与截图 |
+| Windows | [Inside Windows computer-use](https://cua.ai/blog/inside-windows-computer-use) | UIA/MSAA、窗口截图、输入后端选择、独立绘制的光标与交互会话 |
+| Linux | [Inside Linux computer-use](https://cua.ai/blog/inside-linux-computer-use) | AT-SPI/D-Bus、工具包差异、XTEST、X11/XWayland 与原生 Wayland 限制 |
+
+文章描述各自发布时的实现，也包含作者的探索性解释。当前能力和限制应对照
+[平台支持文档](https://cua.ai/docs/reference/cua-driver/platform-support)及源码；
+博客作为 CUA 生态的阅读资料，不计为独立项目。
+
 ## 选型与复用
 
 项目条目会说明它是运行时、集成桥接、开发工具还是研究资料。平台标签不代表所有功能在各平台上完全一致；使用前请核对上游文档、权限要求与许可证。
