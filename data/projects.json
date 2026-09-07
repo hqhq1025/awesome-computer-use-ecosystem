@@ -6,10 +6,13 @@
   "license": "CC0-1.0",
   "licenseScope": "Catalog content only; listed projects retain their own licenses.",
   "capabilities": [
+    "Desktop agents and workspaces",
     "Desktop execution",
     "Browser execution",
     "Accessibility and semantic grounding",
     "Agent-native interfaces and harnesses",
+    "Desktop sandboxes and virtualization",
+    "GUI testing and assertions",
     "Memory and history",
     "Demonstration and replay",
     "Evaluation and training",
@@ -17,6 +20,117 @@
     "Reverse engineering and clean-room research"
   ],
   "projects": [
+    {
+      "name": "UI-TARS Desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "ecosystem": "ByteDance TARS Ecosystem",
+      "description": "Desktop application with visual task execution, status feedback, and local or remote operators; shares its repository with Agent TARS and SDKs.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Desktop application",
+        "Visual agent",
+        "Apache-2.0"
+      ],
+      "capabilities": [
+        "Desktop agents and workspaces",
+        "Desktop execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#bytedance-tars-ecosystem"
+    },
+    {
+      "name": "UI-TARS SDK",
+      "url": "https://github.com/bytedance/UI-TARS-desktop/tree/main/packages/ui-tars/sdk",
+      "ecosystem": "ByteDance TARS Ecosystem",
+      "description": "Embeddable screenshot-model-action loop with operator interfaces, events, and pause/stop controls; desktop integration uses a separate native input operator.",
+      "tags": [
+        "SDK",
+        "TypeScript",
+        "Operator-dependent platforms",
+        "Apache-2.0"
+      ],
+      "capabilities": [
+        "Desktop execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#bytedance-tars-ecosystem"
+    },
+    {
+      "name": "UFO Desktop AgentOS",
+      "url": "https://github.com/microsoft/UFO/tree/main/ufo",
+      "ecosystem": "Microsoft UFO Ecosystem",
+      "description": "Windows desktop agent coordinating applications through UIA, Win32, and COM, with screenshot observations, hybrid GUI/API actions, and reusable application knowledge.",
+      "tags": [
+        "Windows",
+        "Agent framework",
+        "Accessibility",
+        "COM",
+        "Python",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop agents and workspaces",
+        "Desktop execution",
+        "Accessibility and semantic grounding"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#microsoft-ufo-ecosystem"
+    },
+    {
+      "name": "UFO Galaxy",
+      "url": "https://github.com/microsoft/UFO/tree/main/galaxy",
+      "ecosystem": "Microsoft UFO Ecosystem",
+      "description": "Cross-device task planning and orchestration using dynamic dependency graphs; delegates Windows desktop execution to UFO Desktop AgentOS.",
+      "tags": [
+        "Multi-device orchestration",
+        "DAG",
+        "Active development",
+        "Python",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop agents and workspaces"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#microsoft-ufo-ecosystem"
+    },
+    {
+      "name": "Agent S",
+      "url": "https://github.com/simular-ai/Agent-S",
+      "ecosystem": "Agent S Ecosystem",
+      "description": "Desktop agent framework with a CLI and Python SDK, screenshot-based planning, grounding, and PyAutoGUI actions; requires model configuration and is distinct from hosted Sai.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Agent framework",
+        "SDK",
+        "CLI",
+        "Apache-2.0"
+      ],
+      "capabilities": [
+        "Desktop agents and workspaces",
+        "Desktop execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#agent-s-ecosystem"
+    },
+    {
+      "name": "Midscene",
+      "url": "https://github.com/web-infra-dev/midscene",
+      "ecosystem": "Midscene Ecosystem",
+      "description": "Visual automation framework with native desktop and remote Windows RDP support, a JavaScript SDK, Playground, AI assertions, and execution reports.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "GUI testing",
+        "SDK",
+        "TypeScript",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution",
+        "GUI testing and assertions"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#midscene-ecosystem"
+    },
     {
       "name": "Open Computer Use",
       "url": "https://github.com/iFurySt/open-codex-computer-use",
@@ -104,6 +218,39 @@
       "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#codex-ecosystem"
     },
     {
+      "name": "Anthropic Linux Computer Use Demo",
+      "url": "https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo",
+      "ecosystem": "Anthropic Ecosystem",
+      "description": "Reference agent loop with a containerized Linux desktop, screenshots, xdotool input, VNC, and Streamlit; Claude service access is separate.",
+      "tags": [
+        "Linux",
+        "Docker",
+        "Reference implementation",
+        "Python",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#anthropic-ecosystem"
+    },
+    {
+      "name": "Anthropic macOS Computer Use Example",
+      "url": "https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-best-practices",
+      "ecosystem": "Anthropic Ecosystem",
+      "description": "macOS reference implementation with PyAutoGUI input, coordinate handling, batched tools, trajectory inspection, and debugging; not the source of a proprietary desktop product.",
+      "tags": [
+        "macOS",
+        "Reference implementation",
+        "Python",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#anthropic-ecosystem"
+    },
+    {
       "name": "Qwen Open Computer Use",
       "url": "https://github.com/QwenLM/open-computer-use",
       "ecosystem": "Qwen Ecosystem",
@@ -136,6 +283,7 @@
         "Apache-2.0"
       ],
       "capabilities": [
+        "Desktop execution",
         "Browser execution"
       ],
       "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#qwen-ecosystem"
@@ -229,9 +377,98 @@
         "MIT"
       ],
       "capabilities": [
+        "Desktop sandboxes and virtualization",
         "Evaluation and training"
       ],
       "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#cua-ecosystem"
+    },
+    {
+      "name": "CUA Bench",
+      "url": "https://github.com/trycua/cua/tree/main/cua-bench",
+      "ecosystem": "CUA Ecosystem",
+      "description": "Desktop evaluation and reinforcement-learning environments with image provisioning, benchmark adapters, custom tasks, and trajectory export.",
+      "tags": [
+        "Desktop",
+        "Evaluation",
+        "Training",
+        "CLI",
+        "MIT"
+      ],
+      "capabilities": [
+        "Evaluation and training"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#cua-ecosystem"
+    },
+    {
+      "name": "Lume",
+      "url": "https://github.com/trycua/cua/tree/main/libs/lume",
+      "ecosystem": "CUA Ecosystem",
+      "description": "Creates and manages macOS and Linux virtual machines on Apple Silicon through Apple's Virtualization.Framework, providing local desktop environments for agents.",
+      "tags": [
+        "macOS host",
+        "Apple Silicon",
+        "Virtualization",
+        "CLI",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop sandboxes and virtualization"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#cua-ecosystem"
+    },
+    {
+      "name": "E2B Desktop Sandbox",
+      "url": "https://github.com/e2b-dev/desktop",
+      "ecosystem": "E2B Ecosystem",
+      "description": "Linux desktop templates and examples with screenshots, input, window control, and authenticated streaming; desktop SDK sources live in the E2B monorepo.",
+      "tags": [
+        "Linux guest",
+        "Sandbox",
+        "Hosted service",
+        "Python SDK",
+        "JavaScript SDK",
+        "Apache-2.0"
+      ],
+      "capabilities": [
+        "Desktop execution",
+        "Desktop sandboxes and virtualization"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#e2b-ecosystem"
+    },
+    {
+      "name": "E2B Open Computer Use",
+      "url": "https://github.com/e2b-dev/open-computer-use",
+      "ecosystem": "E2B Ecosystem",
+      "description": "Desktop agent application with a screen stream and interaction controls, executing tasks inside an E2B Linux sandbox; requires E2B service access.",
+      "tags": [
+        "Linux guest",
+        "Desktop agent",
+        "Hosted sandbox",
+        "Apache-2.0"
+      ],
+      "capabilities": [
+        "Desktop agents and workspaces",
+        "Desktop execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#e2b-ecosystem"
+    },
+    {
+      "name": "screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "ecosystem": "screenpipe Ecosystem",
+      "description": "Captures desktop activity into searchable local history and exposes context through APIs, MCP, and scheduled workflows; current source uses the Screenpipe Commercial License.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Memory and history",
+        "Source-available",
+        "Screenpipe Commercial License"
+      ],
+      "capabilities": [
+        "Memory and history"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#screenpipe-ecosystem"
     },
     {
       "name": "Apache Maka (Incubating)",
@@ -246,6 +483,7 @@
         "Apache-2.0"
       ],
       "capabilities": [
+        "Desktop agents and workspaces",
         "Desktop execution"
       ],
       "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#apache-maka-incubating-ecosystem"
@@ -288,16 +526,18 @@
       "name": "Peekaboo",
       "url": "https://github.com/openclaw/Peekaboo",
       "ecosystem": "OpenClaw Ecosystem",
-      "description": "OpenClaw's default macOS Computer Use provider. Its native Swift runtime supplies screen capture, accessibility inspection, clicks, typing, menus, dialogs, Dock actions, and window management without a separate driver daemon.",
+      "description": "macOS CLI, menu-bar application, and MCP toolset with screen capture, accessibility inspection, native actions, and agent sessions; also integrates as an OpenClaw Computer Use provider.",
       "tags": [
         "macOS",
         "Computer Use provider",
+        "CLI",
+        "MCP",
         "Accessibility",
-        "CoreGraphics",
         "Swift",
         "MIT"
       ],
       "capabilities": [
+        "Desktop agents and workspaces",
         "Desktop execution",
         "Accessibility and semantic grounding"
       ],
@@ -318,6 +558,7 @@
         "MIT"
       ],
       "capabilities": [
+        "Desktop execution",
         "Browser execution",
         "Demonstration and replay"
       ],
@@ -392,7 +633,9 @@
         "Permissions",
         "MIT"
       ],
-      "capabilities": [],
+      "capabilities": [
+        "Desktop execution"
+      ],
       "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#hermes-agent-ecosystem"
     },
     {
@@ -440,6 +683,43 @@
       "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#pi-ecosystem"
     },
     {
+      "name": "cc-haha",
+      "url": "https://github.com/NanmiCoder/cc-haha",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Agent desktop workspace with local Computer Use, application permissions, macOS AX/CGEvent execution, and Windows screenshot/input execution; Linux packages do not imply Linux Computer Use support.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Agent workspace",
+        "Desktop application",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop agents and workspaces",
+        "Desktop execution",
+        "Accessibility and semantic grounding"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
+      "name": "Windows-MCP",
+      "url": "https://github.com/CursorTouch/Windows-MCP",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Windows MCP server exposing UIA observations, screenshots, input, window control, and system tools, with documented client integration, authentication, and tool restrictions.",
+      "tags": [
+        "Windows",
+        "MCP",
+        "Accessibility",
+        "Python",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution",
+        "Accessibility and semantic grounding"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
       "name": "Playwright MCP",
       "url": "https://github.com/microsoft/playwright-mcp",
       "ecosystem": "Independent Runtimes and Applications",
@@ -472,7 +752,8 @@
         "Apache-2.0"
       ],
       "capabilities": [
-        "Browser execution"
+        "Browser execution",
+        "GUI testing and assertions"
       ],
       "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
     },

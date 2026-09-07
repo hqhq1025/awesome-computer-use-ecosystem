@@ -12,16 +12,24 @@ tools, and research. Platform tags are not guarantees of feature parity.
 - [Complete project descriptions](https://raw.githubusercontent.com/hqhq1025/awesome-computer-use-ecosystem/main/README.md): Canonical list in plain Markdown.
 - [Structured catalog](https://raw.githubusercontent.com/hqhq1025/awesome-computer-use-ecosystem/main/data/projects.json): Names, URLs, ecosystem, descriptions, tags, and capabilities generated from the README.
 - [Chinese navigation](https://raw.githubusercontent.com/hqhq1025/awesome-computer-use-ecosystem/main/docs/README.zh-CN.md): Chinese task and ecosystem guide.
+- [Desktop selection evidence](https://raw.githubusercontent.com/hqhq1025/awesome-computer-use-ecosystem/main/docs/desktop-selection.md): Desktop roles, dated repository stars, source evidence, and deployment caveats.
 - [Contribution criteria](https://raw.githubusercontent.com/hqhq1025/awesome-computer-use-ecosystem/main/CONTRIBUTING.md): Inclusion, evidence, and maintenance requirements.
 - [List change history](https://github.com/hqhq1025/awesome-computer-use-ecosystem/commits/main/README.md): Changes to the list, not upstream verification dates.
 
 ## Ecosystems
 
+- [ByteDance TARS Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#bytedance-tars-ecosystem): Project entries in this group.
+- [Microsoft UFO Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#microsoft-ufo-ecosystem): Project entries in this group.
+- [Agent S Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#agent-s-ecosystem): Project entries in this group.
+- [Midscene Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#midscene-ecosystem): Project entries in this group.
 - [Codex Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#codex-ecosystem): Project entries in this group.
+- [Anthropic Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#anthropic-ecosystem): Project entries in this group.
 - [Qwen Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#qwen-ecosystem): Project entries in this group.
 - [Kimi Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#kimi-ecosystem): Project entries in this group.
 - [Z.ai and ZCode Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#zai-and-zcode-ecosystem): Project entries in this group.
 - [CUA Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#cua-ecosystem): Project entries in this group.
+- [E2B Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#e2b-ecosystem): Project entries in this group.
+- [screenpipe Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#screenpipe-ecosystem): Project entries in this group.
 - [Apache Maka (Incubating) Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#apache-maka-incubating-ecosystem): Project entries in this group.
 - [OpenClaw Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#openclaw-ecosystem): Project entries in this group.
 - [Hermes Agent Ecosystem](https://github.com/hqhq1025/awesome-computer-use-ecosystem#hermes-agent-ecosystem): Project entries in this group.

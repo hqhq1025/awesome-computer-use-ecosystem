@@ -99,6 +99,7 @@ tools, and research. Platform tags are not guarantees of feature parity.
 - [Complete project descriptions](${raw}/README.md): Canonical list in plain Markdown.
 - [Structured catalog](${raw}/data/projects.json): Names, URLs, ecosystem, descriptions, tags, and capabilities generated from the README.
 - [Chinese navigation](${raw}/docs/README.zh-CN.md): Chinese task and ecosystem guide.
+- [Desktop selection evidence](${raw}/docs/desktop-selection.md): Desktop roles, dated repository stars, source evidence, and deployment caveats.
 - [Contribution criteria](${raw}/CONTRIBUTING.md): Inclusion, evidence, and maintenance requirements.
 - [List change history](${repository}/commits/main/README.md): Changes to the list, not upstream verification dates.
 

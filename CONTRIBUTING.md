@@ -8,6 +8,20 @@ Open a pull request that adds one entry to its product ecosystem. Use the
 capability index to link the project from each relevant functional category
 without duplicating its full description.
 
+Group related applications, SDKs, drivers, and environment components under their
+own ecosystem. Put standalone projects in the independent group. Use capability
+links to distinguish desktop agents/workspaces, execution tools, GUI testing,
+sandboxes/virtualization, history, replay, and evaluation. Add a component entry
+only when its independent interface or deployment role helps readers.
+
+For the desktop starting points, prefer documented installation, real execution
+code, useful operational documentation, and evidence of maintenance. Repository
+stars are a discovery signal, not a quality threshold or a ranking of reliability.
+Keep dated counts and source evidence in `docs/desktop-selection.md`, identify
+the repository they belong to, and never attribute parent-repository stars to
+individual components. Label reference implementations and source-available
+licenses explicitly.
+
 Use this format:
 
 ```markdown
