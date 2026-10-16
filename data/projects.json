@@ -702,6 +702,24 @@
       "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
     },
     {
+      "name": "Orkas",
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Local-first desktop AI workspace with Commander-led specialists, shared browser observation and actions, local project files, and supported own-provider API keys.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Browser execution",
+        "Electron",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop agents and workspaces",
+        "Browser execution"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
       "name": "Windows-MCP",
       "url": "https://github.com/CursorTouch/Windows-MCP",
       "ecosystem": "Independent Runtimes and Applications",
