@@ -870,6 +870,28 @@
         "Evaluation and training"
       ],
       "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
+      "name": "agent-qa",
+      "url": "https://github.com/vostride/agent-qa",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Tests web, Android, and iOS workflows through CLI or MCP, with persistent memidex memory and self-improvement from test results; see [website](https://vostride.com).",
+      "tags": [
+        "Web",
+        "Android",
+        "iOS",
+        "CLI",
+        "MCP",
+        "TypeScript",
+        "FSL-1.1-ALv2"
+      ],
+      "capabilities": [
+        "Browser execution",
+        "Agent-native interfaces and harnesses",
+        "GUI testing and assertions",
+        "Memory and history"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
     }
   ]
 }
