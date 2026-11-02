@@ -683,6 +683,25 @@
       "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#pi-ecosystem"
     },
     {
+      "name": "Reflex Computer Use",
+      "url": "https://github.com/8itlab/reflex-computer-use",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "MCP desktop control using macOS accessibility and Windows UI Automation, with remote Windows over SSH and optional Jev decisions and image grounding.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "MCP",
+        "Accessibility",
+        "Python",
+        "MIT"
+      ],
+      "capabilities": [
+        "Desktop execution",
+        "Accessibility and semantic grounding"
+      ],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
       "name": "cc-haha",
       "url": "https://github.com/NanmiCoder/cc-haha",
       "ecosystem": "Independent Runtimes and Applications",
