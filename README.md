@@ -352,6 +352,10 @@ and source below. They are reading resources, not separate project entries.
     generation, and a dashboard for monitoring or taking over agent sessions.
   - `Browser execution` `CLI` `Agent Skills` `Session management` `Testing` `TypeScript` `Apache-2.0`
 
+- [OpenAdapt](https://github.com/OpenAdaptAI/OpenAdapt)
+  - Compiles web, Windows, macOS, Linux, RDP, and Citrix demonstrations into local programs with independent system-of-record read-back verification, MCP server tools, and signed Ed25519 DSSE receipts.
+  - `macOS` `Windows` `Linux` `Browser execution` `Desktop` `MCP` `Python` `MIT`
+
 - [OpenCLI](https://github.com/jackwener/OpenCLI)
   - Turns websites and Electron applications into deterministic commands while
     reusing the user's logged-in Chrome profiles. Its browser bridge exposes
