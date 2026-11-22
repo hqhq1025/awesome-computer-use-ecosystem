@@ -758,6 +758,24 @@
       "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
     },
     {
+      "name": "OpenAdapt",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt",
+      "ecosystem": "Independent Runtimes and Applications",
+      "description": "Compiles web, Windows, macOS, Linux, RDP, and Citrix demonstrations into local programs with independent system-of-record read-back verification, MCP server tools, and signed Ed25519 DSSE receipts.",
+      "tags": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Browser execution",
+        "Desktop",
+        "MCP",
+        "Python",
+        "MIT"
+      ],
+      "capabilities": [],
+      "readmeUrl": "https://github.com/hqhq1025/awesome-computer-use-ecosystem#independent-runtimes-and-applications"
+    },
+    {
       "name": "OpenCLI",
       "url": "https://github.com/jackwener/OpenCLI",
       "ecosystem": "Independent Runtimes and Applications",
